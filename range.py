@@ -6,6 +6,4 @@ def multi_3():
     print (*range(0, 100, 3), sep=',')
 
 multi_2()
-print("")
 multi_3()
-#comment
