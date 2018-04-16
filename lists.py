@@ -3,11 +3,11 @@ class ListnTuple(): #creating a class
         num = (input('Enter some numbers seperated by a comma: '))  #taking input from the console and storing in 'num' variable
         return num
     def listAndTupleGenertor(self):     #defining the second method
-        num = self.listGarner()
+        num = self.listGarner()     #calling the first method 
         list = num.split(',')         #generating a list from the num variable
-        t = tuple(list)    #generating a tuple from the list
+        tup = tuple(list)    #generating a tuple from the list
         print("Generated List:", list) #printing out the list on the console
-        print("Generated Tuple:", t)   #printing out the tuple on the console
+        print("Generated Tuple:", tup)   #printing out the tuple on the console
 
 
 gen1 = ListnTuple() #creating an object for the class
